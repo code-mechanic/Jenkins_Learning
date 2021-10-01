@@ -7,4 +7,4 @@ class account:
 
 if __name__ == "__main__":
     accVerify = account()
-    print("The password length is" + str(accVerify.countLen("MOHAN")))
+    print("The password length is " + str(len(accVerify.countLen("MOHAN"))))
